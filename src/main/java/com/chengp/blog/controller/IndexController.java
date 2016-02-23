@@ -11,6 +11,6 @@ public class IndexController {
 
     @RequestMapping("/index")
     public String index() {
-        return "/WEB-INF/views/index.jsp";
+        return "index";
     }
 }
