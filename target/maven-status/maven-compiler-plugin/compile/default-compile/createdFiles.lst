@@ -1,1 +1,5 @@
+com/chengp/blog/entity/User.class
+com/chengp/blog/entity/Item.class
 com/chengp/blog/controller/IndexController.class
+com/chengp/blog/entity/Role.class
+com/chengp/blog/entity/Blog.class

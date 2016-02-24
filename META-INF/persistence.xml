@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    
+    <persistence-unit name="java-blog">
+        <class>com.chengp.blog.entity.User</class>
+        <class>com.chengp.blog.entity.Role</class>
+        <class>com.chengp.blog.entity.Item</class>
+        <class>com.chengp.blog.entity.Blog</class>
+    </persistence-unit>
+
+</persistence>
