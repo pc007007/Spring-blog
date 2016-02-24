@@ -66,4 +66,11 @@ public class Item {
         this.link = link;
     }
 
+    public Blog getBlog() {
+        return blog;
+    }
+
+    public void setBlog(Blog blog) {
+        this.blog = blog;
+    }
 }
