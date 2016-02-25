@@ -56,4 +56,12 @@ public class Blog {
     public void setUser(User user) {
         this.user = user;
     }
+
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
+    }
 }
