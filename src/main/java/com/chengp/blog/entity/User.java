@@ -26,6 +26,16 @@ public class User {
     @OneToMany(mappedBy = "user")
     private List<Blog> blogs;
 
+    private boolean enabled;
+
+    public boolean isEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
+    }
+
     public String getName() {
         return name;
     }

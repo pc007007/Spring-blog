@@ -39,4 +39,5 @@
     <jpa:repositories base-package="com.chengp.blog.repository" entity-manager-factory-ref="entityManagerFactory"
                       transaction-manager-ref="transactionManager"/>
 
+    <import resource="security.xml"/>
 </beans>

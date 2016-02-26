@@ -1,12 +1,13 @@
-/Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/entity/User.java
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/controller/IndexController.java
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/entity/Blog.java
-/Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/repository/ItemRepository.java
-/Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/service/InitDbService.java
-/Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/repository/UserRepository.java
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/repository/BlogRepository.java
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/entity/Item.java
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/repository/RoleRepository.java
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/controller/UserController.java
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/entity/Role.java
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/service/UserService.java
+/Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/entity/User.java
+/Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/controller/LoginController.java
+/Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/repository/ItemRepository.java
+/Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/service/InitDbService.java
+/Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/repository/UserRepository.java
