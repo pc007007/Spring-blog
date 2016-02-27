@@ -59,21 +59,21 @@ public class InitDbService {
         userAdmin.setRoles(roles);
         userRepository.save(userAdmin);
 
-        Blog blogCheng = new Blog();
-        blogCheng.setName("Cheng");
-        blogCheng.setUrl("http://feeds.feedburner.com/javavids?format=xml");
-        blogCheng.setUser(userAdmin);
-        blogRepository.save(blogCheng);
+        Blog blog = new Blog();
+        blog.setName("java");
+        blog.setUrl("http://feeds.feedburner.com/javavids?format=xml");
+        blog.setUser(userAdmin);
+        blogRepository.save(blog);
 
         Item item1 = new Item();
-        item1.setBlog(blogCheng);
+        item1.setBlog(blog);
         item1.setTitle("first");
         item1.setLink("http://www.google.com");
         item1.setPublishedDate(new Date());
         itemRepository.save(item1);
 
         Item item2 = new Item();
-        item2.setBlog(blogCheng);
+        item2.setBlog(blog);
         item2.setTitle("second");
         item2.setLink("http://www.google.com");
         item2.setPublishedDate(new Date());

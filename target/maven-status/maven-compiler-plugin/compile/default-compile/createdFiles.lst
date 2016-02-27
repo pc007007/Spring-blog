@@ -4,6 +4,7 @@ com/chengp/blog/controller/UserController.class
 com/chengp/blog/service/UserService.class
 com/chengp/blog/entity/Item.class
 com/chengp/blog/repository/RoleRepository.class
+com/chengp/blog/service/BlogService.class
 com/chengp/blog/repository/UserRepository.class
 com/chengp/blog/entity/Role.class
 com/chengp/blog/repository/BlogRepository.class
