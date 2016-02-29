@@ -1,5 +1,6 @@
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/controller/IndexController.java
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/entity/Blog.java
+/Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/controller/AdminController.java
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/repository/BlogRepository.java
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/entity/Item.java
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/repository/RoleRepository.java
@@ -12,3 +13,4 @@
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/service/InitDbService.java
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/repository/UserRepository.java
 /Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/service/BlogService.java
+/Users/pc/Documents/workspace/spring-blog/src/main/java/com/chengp/blog/controller/RegisterController.java

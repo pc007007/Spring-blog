@@ -1,7 +1,9 @@
 package com.chengp.blog.entity;
 
+import org.hibernate.validator.constraints.URL;
+
 import javax.persistence.*;
-import java.util.Collection;
+import javax.validation.constraints.Size;
 import java.util.List;
 
 /**
@@ -14,15 +16,17 @@ public class Blog {
     @GeneratedValue
     private Integer id;
 
+    @Size(min = 1, message = "InvalidURL!")
     private String url;
 
+    @Size(min = 1, message = "Name must be at least 1 character!")
     private String name;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
 
-    @OneToMany(mappedBy = "blog")
+    @OneToMany(mappedBy = "blog", cascade =CascadeType.REMOVE)
     private List<Item> items;
 
     public Integer getId() {

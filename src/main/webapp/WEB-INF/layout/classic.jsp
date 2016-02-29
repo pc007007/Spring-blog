@@ -29,6 +29,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
+    <script src="http://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
             integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
@@ -70,7 +71,7 @@
                         <li class="${current=='register'?'active':''}"><a href="<spring:url value="/register"/>">Register</a></li>
                     </security:authorize>
                     <security:authorize access="isAuthenticated()">
-                        <li class="${current=='users'?'active':''}"><a href="<spring:url value="/account"/>">My account</a></li>
+                        <li class="${current=='account'?'active':''}"><a href="<spring:url value="/account"/>">My account</a></li>
                         <li><a href="<spring:url value="/logout"/>">Logout</a></li>
                     </security:authorize>
                 </ul>
